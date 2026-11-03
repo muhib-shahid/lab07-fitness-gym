@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#101112">
+    <meta name="description" content="Expert coaching, purposeful training, and a community that shows up. Find your strength at FITCORE.">
+    <title>FITCORE — Build Your Strongest Self</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header" id="home">
+      <div class="header-row">
+        <a class="brand" href="#home" aria-label="FITCORE home">
+          <img src="./assets/dumbbell.svg" alt="" class="brand-mark">
+          <span>FITCORE</span>
+        </a>
+
+        <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+          <a class="active" href="#home">Home</a>
+          <a href="#programs">Programs</a>
+          <a href="#trainers">Trainers</a>
+          <a href="#membership">Membership</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="header-actions">
+          <a class="button button-small button-primary" href="#membership">
+            Join Now
+            <img src="./assets/arrow-up-right.svg" alt="" class="button-icon">
+          </a>
+          <button class="menu-toggle" type="button" aria-controls="primary-nav" aria-expanded="true" aria-label="Toggle navigation">
+            <span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section-shell" aria-labelledby="hero-title">
+        <div class="hero-layout">
+          <div class="hero-copy">
+            <p class="eyebrow hero-eyebrow"><span></span>More than a gym. A mindset.</p>
+            <h1 id="hero-title">Build your<br class="desktop-break"> strongest self</h1>
+            <p class="hero-description">Expert coaching. Purposeful training. A community that shows up. Turn your ambition into strength, one session at a time.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#contact">
+                Start Training
+                <img src="./assets/arrow-up-right.svg" alt="" class="button-icon">
+              </a>
+              <a class="button button-secondary" href="#programs">Explore Programs</a>
+            </div>
+            <div class="endorsement" aria-label="Rated 4.9 out of 5 by over 240 members">
+              <span class="stars" aria-hidden="true">★★★★★</span>
+              <span>4.9/5 from 240+ members</span>
+            </div>
+          </div>
+
+          <figure class="hero-photo">
+            <img src="./assets/hero-gym.png" alt="Athlete preparing to lift a barbell in a dark, focused training space">
+            <figcaption>
+              <span>
+                <span class="caption-kicker">Built here. Earned every day.</span>
+                <span class="caption-title">The only way is forward.</span>
+              </span>
+              <img src="./assets/arrow-up-right-caption.svg" alt="" class="caption-arrow">
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="stats">
+          <div class="stat"><strong>500+</strong><span>Active members</span></div>
+          <div class="stat"><strong>20+</strong><span>Expert coaches</span></div>
+          <div class="stat"><strong>40+</strong><span>Weekly classes</span></div>
+          <div class="stat stat-hours">
+            <span class="eyebrow">Your goals. Your schedule.</span>
+            <span>Open daily · 5:00 AM – 11:00 PM</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="programs section-shell" id="programs" aria-labelledby="programs-title">
+        <div class="section-intro">
+          <div class="heading-group">
+            <p class="eyebrow">01 / Find your training</p>
+            <h2 id="programs-title">Built for the way you move.</h2>
+          </div>
+          <p class="section-description">Six ways to challenge yourself. One shared standard: purposeful training that delivers lasting progress.</p>
+        </div>
+
+        <div class="program-grid">
+          <article class="program-card">
+            <img src="./assets/program-strength.png" alt="Member training with a barbell" class="program-image">
+            <div class="card-content">
+              <h3><span>Strength Training</span><a href="#contact" data-program="Strength Training" aria-label="Ask about Strength Training"><img src="./assets/arrow-up-right-card.svg" alt=""></a></h3>
+              <p>Build real-world power with progressive lifting and expert technique.</p>
+              <span class="card-tag">Power / Progression</span>
+            </div>
+          </article>
+          <article class="program-card">
+            <img src="./assets/program-cardio.png" alt="Athletes running cardio training together" class="program-image">
+            <div class="card-content">
+              <h3><span>Cardio</span><a href="#contact" data-program="Cardio" aria-label="Ask about Cardio"><img src="./assets/arrow-up-right-card.svg" alt=""></a></h3>
+              <p>Go the distance. Improve endurance, energy, and heart health.</p>
+              <span class="card-tag">Endurance / Energy</span>
+            </div>
+          </article>
+          <article class="program-card">
+            <img src="./assets/program-personal.png" alt="Personal trainer coaching a client during a lift" class="program-image">
+            <div class="card-content">
+              <h3><span>Personal Training</span><a href="#contact" data-program="Personal Training" aria-label="Ask about Personal Training"><img src="./assets/arrow-up-right-card.svg" alt=""></a></h3>
+              <p>Your goals. Your plan. One-to-one coaching that moves you forward.</p>
+              <span class="card-tag">Coaching / Results</span>
+            </div>
+          </article>
+          <article class="program-card">
+            <img src="./assets/program-functional.png" alt="Member practicing functional training with a battle rope" class="program-image">
+            <div class="card-content">
+              <h3><span>Functional Fitness</span><a href="#contact" data-program="Functional Fitness" aria-label="Ask about Functional Fitness"><img src="./assets/arrow-up-right-card.svg" alt=""></a></h3>
+              <p>Move better in and out of the gym with strength that works for life.</p>
+              <span class="card-tag">Movement / Mobility</span>
+            </div>
+          </article>
+          <article class="program-card">
+            <img src="./assets/program-hiit.png" alt="Athlete working through a high-intensity interval session" class="program-image">
+            <div class="card-content">
+              <h3><span>HIIT</span><a href="#contact" data-program="HIIT" aria-label="Ask about HIIT"><img src="./assets/arrow-up-right-card.svg" alt=""></a></h3>
+              <p>High-energy intervals. Maximum effort. A stronger engine in 45 minutes.</p>
+              <span class="card-tag">Intensity / Conditioning</span>
+            </div>
+          </article>
+          <article class="program-card">
+            <img src="./assets/program-yoga.png" alt="Member practicing a yoga balance pose" class="program-image">
+            <div class="card-content">
+              <h3><span>Yoga</span><a href="#contact" data-program="Yoga" aria-label="Ask about Yoga"><img src="./assets/arrow-up-right-card.svg" alt=""></a></h3>
+              <p>Find your balance. Build flexibility, control, and a calmer mind.</p>
+              <span class="card-tag">Balance / Recovery</span>
+            </div>
+          </article>
+        </div>
+
+        <p class="program-note">
+          <img src="./assets/sparkles.svg" alt="">
+          Not sure where to start? Your first session includes a complimentary training consultation.
+        </p>
+      </section>
+
+      <section class="trainers section-shell" id="trainers" aria-labelledby="trainers-title">
+        <div class="section-intro">
+          <div class="heading-group">
+            <p class="eyebrow">02 / People in your corner</p>
+            <h2 id="trainers-title">Expertise. Energy. Accountability.</h2>
+          </div>
+          <p class="section-description">Real coaches who learn your name, understand your goals, and help you go further than you thought possible.</p>
+        </div>
+
+        <div class="trainer-grid">
+          <article class="trainer-card">
+            <img src="./assets/trainer-marcus.png" alt="Marcus Reed, strength and conditioning coach" class="trainer-image">
+            <div class="trainer-info">
+              <h3><span>Marcus Reed</span><a href="#contact" aria-label="Contact Marcus Reed"><img src="./assets/arrow-up-right-feature.svg" alt=""></a></h3>
+              <p class="trainer-specialty">Strength &amp; Conditioning</p>
+              <p class="trainer-credentials">CSCS certified · 8 years coaching</p>
+            </div>
+          </article>
+          <article class="trainer-card">
+            <img src="./assets/trainer-sofia.png" alt="Sofia Martinez, HIIT and functional fitness coach" class="trainer-image">
+            <div class="trainer-info">
+              <h3><span>Sofia Martinez</span><a href="#contact" aria-label="Contact Sofia Martinez"><img src="./assets/arrow-up-right-feature.svg" alt=""></a></h3>
+              <p class="trainer-specialty">HIIT &amp; Functional Fitness</p>
+              <p class="trainer-credentials">NASM certified · 6 years coaching</p>
+            </div>
+          </article>
+          <article class="trainer-card">
+            <img src="./assets/trainer-alex.png" alt="Alex Chen, yoga and mobility coach" class="trainer-image">
+            <div class="trainer-info">
+              <h3><span>Alex Chen</span><a href="#contact" aria-label="Contact Alex Chen"><img src="./assets/arrow-up-right-feature.svg" alt=""></a></h3>
+              <p class="trainer-specialty">Yoga &amp; Mobility</p>
+              <p class="trainer-credentials">RYT 500 certified · 7 years coaching</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="membership section-shell" id="membership" aria-labelledby="membership-title">
+        <div class="section-intro">
+          <div class="heading-group">
+            <p class="eyebrow">03 / Invest in yourself</p>
+            <h2 id="membership-title">Your ambition. Your membership.</h2>
+          </div>
+          <p class="section-description">A plan for every starting point. Premium facilities, real support, and no long-term commitments.</p>
+        </div>
+
+        <div class="pricing-grid">
+          <article class="price-card">
+            <div class="plan-intro">
+              <h3>Basic</h3>
+              <p>Your foundation for a stronger life.</p>
+              <p class="price"><span class="currency">$</span>39<span class="period"> / month</span></p>
+              <p class="billing-note">Billed monthly. Cancel anytime.</p>
+            </div>
+            <ul class="benefits">
+              <li><img src="./assets/check.svg" alt="">Full gym access</li>
+              <li><img src="./assets/check.svg" alt="">Premium training equipment</li>
+              <li><img src="./assets/check.svg" alt="">Locker rooms &amp; showers</li>
+              <li><img src="./assets/check.svg" alt="">Fitness app access</li>
+              <li><img src="./assets/check.svg" alt="">Introductory consultation</li>
+            </ul>
+            <button class="button button-secondary plan-button" type="button" data-plan="Basic">
+              Choose Basic
+              <img src="./assets/arrow-up-right-pricing.svg" alt="" class="button-icon">
+            </button>
+          </article>
+
+          <article class="price-card price-card-featured">
+            <div class="plan-intro">
+              <div class="plan-name-row">
+                <h3>Pro</h3>
+                <span class="recommended">Recommended</span>
+              </div>
+              <p>More variety. More momentum.</p>
+              <p class="price"><span class="currency">$</span>69<span class="period"> / month</span></p>
+              <p class="billing-note">Billed monthly. Cancel anytime.</p>
+            </div>
+            <ul class="benefits">
+              <li><img src="./assets/check.svg" alt="">Everything in Basic</li>
+              <li><img src="./assets/check.svg" alt="">Unlimited group classes</li>
+              <li><img src="./assets/check.svg" alt="">Monthly progress check-in</li>
+              <li><img src="./assets/check.svg" alt="">Personalized training plan</li>
+              <li><img src="./assets/check.svg" alt="">2 guest passes each month</li>
+            </ul>
+            <button class="button button-primary plan-button" type="button" data-plan="Pro">
+              Choose Pro
+              <img src="./assets/arrow-up-right.svg" alt="" class="button-icon">
+            </button>
+          </article>
+
+          <article class="price-card">
+            <div class="plan-intro">
+              <h3>Elite</h3>
+              <p>All in on your full potential.</p>
+              <p class="price"><span class="currency">$</span>119<span class="period"> / month</span></p>
+              <p class="billing-note">Billed monthly. Cancel anytime.</p>
+            </div>
+            <ul class="benefits">
+              <li><img src="./assets/check.svg" alt="">Everything in Pro</li>
+              <li><img src="./assets/check.svg" alt="">4 personal training sessions</li>
+              <li><img src="./assets/check.svg" alt="">Nutrition coaching</li>
+              <li><img src="./assets/check.svg" alt="">Priority class bookings</li>
+              <li><img src="./assets/check.svg" alt="">Unlimited guest passes</li>
+            </ul>
+            <button class="button button-secondary plan-button" type="button" data-plan="Elite">
+              Choose Elite
+              <img src="./assets/arrow-up-right-pricing.svg" alt="" class="button-icon">
+            </button>
+          </article>
+        </div>
+        <p class="membership-note"><img src="./assets/shield-check.svg" alt="">No joining fees. No pressure. Just progress.</p>
+      </section>
+
+      <section class="contact section-shell" id="contact" aria-labelledby="contact-title">
+        <div class="contact-copy">
+          <p class="eyebrow">04 / Let’s get to work</p>
+          <h2 id="contact-title">Your next chapter starts here.</h2>
+          <p class="contact-intro">New to training or ready for a new challenge? Tell us a little about yourself. We’ll help you find your fit.</p>
+
+          <address class="contact-details">
+            <div class="contact-detail">
+              <span class="contact-symbol"><img src="./assets/map-pin.svg" alt=""></span>
+              <span><span class="detail-label">Come find us</span><span>125 West 25th Street, New York, NY 10001</span></span>
+            </div>
+            <div class="contact-detail">
+              <span class="contact-symbol"><img src="./assets/phone.svg" alt=""></span>
+              <span><span class="detail-label">Let’s talk</span><a href="tel:+12125550148">+1 (212) 555-0148</a></span>
+            </div>
+            <div class="contact-detail">
+              <span class="contact-symbol"><img src="./assets/mail.svg" alt=""></span>
+              <span><span class="detail-label">Drop us a line</span><a href="mailto:hello@fitcore.com">hello@fitcore.com</a></span>
+            </div>
+          </address>
+          <p class="opening-note">Every day, 5:00 AM – 11:00 PM. Your time to show up.</p>
+        </div>
+
+        <form class="contact-form" id="contact-form">
+          <div class="form-intro">
+            <h3>Make your first move.</h3>
+            <p>Leave your details. We’ll be in touch within 24 hours.</p>
+          </div>
+          <div class="form-row">
+            <label class="form-field">
+              <span>Name</span>
+              <input name="name" type="text" autocomplete="name" placeholder="Your full name" required>
+            </label>
+            <label class="form-field">
+              <span>Email</span>
+              <input name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
+            </label>
+          </div>
+          <label class="form-field">
+            <span>Phone</span>
+            <input name="phone" type="tel" autocomplete="tel" placeholder="Your phone number">
+          </label>
+          <label class="form-field">
+            <span>Message</span>
+            <textarea name="message" rows="4" placeholder="Tell us about your fitness goals..." required></textarea>
+          </label>
+          <button class="button button-primary submit-button" type="submit">
+            Send
+            <img src="./assets/arrow-up-right.svg" alt="" class="button-icon">
+          </button>
+          <p class="privacy-note">By sending, you agree to our <a href="mailto:hello@fitcore.com?subject=Privacy%20Policy">Privacy Policy</a>. Your details stay with us. No spam, just a stronger start.</p>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-columns">
+        <div class="footer-brand">
+          <a class="brand" href="#home" aria-label="FITCORE home">
+            <img src="./assets/dumbbell.svg" alt="" class="brand-mark">
+            <span>FITCORE</span>
+          </a>
+          <p>More than a place to train. A place to become who you’re built to be.</p>
+          <div class="social-links" aria-label="Social media">
+            <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" aria-label="Instagram"><img src="./assets/instagram.svg" alt=""></a>
+            <a href="https://www.facebook.com/" target="_blank" rel="noreferrer" aria-label="Facebook"><img src="./assets/facebook.svg" alt=""></a>
+            <a href="https://www.youtube.com/" target="_blank" rel="noreferrer" aria-label="YouTube"><img src="./assets/youtube.svg" alt=""></a>
+          </div>
+        </div>
+        <nav class="footer-links" aria-label="Explore">
+          <h2>Explore</h2>
+          <a href="#home">Home</a>
+          <a href="#programs">Programs</a>
+          <a href="#trainers">Trainers</a>
+          <a href="#membership">Membership</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="footer-contact">
+          <h2>Find your core</h2>
+          <address>
+            <span>125 West 25th Street</span>
+            <span>New York, NY 10001</span>
+          </address>
+          <a href="tel:+12125550148">+1 (212) 555-0148</a>
+          <a href="mailto:hello@fitcore.com">hello@fitcore.com</a>
+        </div>
+        <div class="footer-hours">
+          <h2>Make time for you</h2>
+          <p>Monday – Sunday</p>
+          <strong>5:00 AM – 11:00 PM</strong>
+          <p>Your goals don’t take days off.<br>Neither do we.</p>
+        </div>
+      </div>
+      <p class="footer-statement">Stronger. Together.</p>
+      <div class="footer-bottom">
+        <span>© <span id="current-year"></span> FITCORE. All rights reserved.</span>
+        <nav class="legal-links" aria-label="Legal">
+          <a href="mailto:hello@fitcore.com?subject=Privacy%20Policy">Privacy Policy</a>
+          <a href="mailto:hello@fitcore.com?subject=Terms%20and%20Conditions">Terms &amp; Conditions</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
